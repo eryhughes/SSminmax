@@ -1,0 +1,13 @@
+type,description,option,option1,option2,option3,option4,option5,option6,option7
+fO2,model to convert between fO2 and melt Fe3+/FeT,Kress91A,Kress91,Kress91A,ONeill18,buffered,S6ST,yes,
+sulphide,model for sulphide capacity,ONeill20,ONeill20,,,,,,
+sulphate,model for sulphate capacity,Hawaii,Nash19,S6ST,Hawaii,,,,
+ideal_gas,is the gas treated as an ideal gas,no,yes,no,,,,,
+bulk_composition,what does the composition in the input refer too and how is the bulk composition calcualted,yes,yes,wtg,,,,,
+eq_Fe,does iron in the melt equilibrate with the gas,yes,yes,no,,,,,
+starting_P,how is the starting pressure for gassing runs determined,bulk,set,bulk,measured,,,,
+gassing_style,is gassing closed or open,closed,closed,open,,,,,
+sulphur_saturation,can sulphur be incorporated into a solid/immiscible liquid phase,no,yes,no,,,,,
+calc_sat,Independent variables for calculating pressure of vapour saturation,fO2_melt,fO2_melt,fO2_fX,,,,,
+y_SO2,SO2 fugacity coefficient,SS92_modified,SS92,SS92_modified,,,,,
+y_H2S,H2S fugacity coefficient,SS92_modified,SS92,SS92_modified,,,,,
